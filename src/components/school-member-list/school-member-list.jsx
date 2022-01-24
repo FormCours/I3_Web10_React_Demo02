@@ -4,7 +4,9 @@ const SchoolMemberListItem = (props) => {
     return (
         <article>
             <p>
-                {(status !== 'Prof') ? firstname : 'Professeur'} {lastname}
+                {(status !== 'Prof') ? firstname : 'Professeur'} 
+                {' '}
+                {lastname}
                 <br/>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, nostrum reiciendis dolore laudantium facere explicabo dolorem ullam aperiam nisi. Eum eveniet est doloremque incidunt veritatis consequatur dolore ullam animi consectetur.
             </p>
