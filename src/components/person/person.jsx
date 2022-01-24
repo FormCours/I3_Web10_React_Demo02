@@ -20,7 +20,7 @@ const Person = ({firstname, lastname, gender}) => {
 
     return (
         <p>
-            {title} {firstname} <span className={`${style.lastname} ${color}`}>{lastname}</span>
+            {title} {firstname} <span className={style.lastname + ' ' + color}>{lastname}</span>
         </p>
     );
 };
