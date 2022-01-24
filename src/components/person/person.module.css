@@ -1,0 +1,15 @@
+.lastname {
+    text-transform: uppercase;
+}
+
+.colorWoman {
+    color: chartreuse;
+}
+
+.colorMan {
+    color: crimson;
+}
+
+.colorOther {
+    color: #777
+}
