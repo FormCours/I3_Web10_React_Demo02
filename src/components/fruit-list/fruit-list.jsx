@@ -15,9 +15,9 @@ const FruitList = () => {
 
     // ↓ Conversion des données vers des composant React
     //   Utilisation de la fonction "map" de Javascript
-    const fruitsJSX = fruits.map(fruit => <li>{fruit}</li>);
+    const fruitsJSX = fruits.map(fruit => <li key={fruit}>{fruit}</li>);
     console.log(fruitsJSX);
-
+ 
     // ↓ Equivalement à la fonction "map", avec la boucle "forEarch"
     /*
     const fruitsJSX2 = [];
